@@ -1,7 +1,11 @@
-<h1> gogogogo </h1>
+<h1> FOOOOOOOOOOOOOOOOOOORMS EVERYWHERE AROUND ME </h1>
 
 
-<!--
+
+
+<!-- 
+
+
 <form action= "/new" method = "post" > 
 	Ton p'tit nom: 
 	<input type="text" name="username"> <br> </br>
@@ -16,20 +20,39 @@
 
 	<input type="submit" name="envoyer">
 </form>
+ --> 
 
--->
 
 
-<%= form_tag "/new", method:"post" do %>
-	Ton p'tit nom: 
-  <input type="text" name="username" /> <br> </br>
-  	Ton p'tit mail 
+<%= form_tag "/new", method:"post"  do %>
+
+
+	 <div class="form-group">
+
+
+
+
+    <label for="formGroupExampleInput">Ton p'tit nom Mamène :</label>
+  <input  type="text" name="username" /> <br> </br>
+
+ <label for="formGroupExampleInput">Ton p'tit mail :</label>
    <input type="text" name="email" /><br> </br>
-   Et ici tu peux raconter ta vie insignifiante :
+
+  <label for="formGroupExampleInput"> Raconte moi ta vie insignifiante</label>
     <input type="text" name="bio" /><br> </br>
 
     <input type="hidden" name="authenticity_token"
 	value=" <%= form_authenticity_token %>" >
 
+	 <span class="input-group-btn">
+     <%= button_tag( :class => "btn btn-default") do %>
+        <span class='glyphicon glyphicon-search'></span>
+
   <input type="submit" value="Ajouter" />
+<% end %>
+
+  </span>
+
+</div>
+
 <% end %>
