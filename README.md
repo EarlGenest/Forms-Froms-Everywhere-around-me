@@ -1,24 +1,9 @@
-# README
+Bidouillage réalisé par Charles Genestoux.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Bon tu connais la routine hein : bundle install, tous ça tous ça. 
 
-* Ruby version
 
-* System dependencies
+Le p'tit lien Heroku de derrière les fagots   : https://formsformseverywherearoundme.herokuapp.com/
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+si t'aimes la micro roumaine et faire tes corrections en chaloupant de la teuté : https://www.youtube.com/watch?v=dpIBxqmeFyo : 
