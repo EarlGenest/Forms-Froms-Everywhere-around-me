@@ -1,20 +1,19 @@
 class UserController < ApplicationController
 
 	def new
+
+		@user = User.all
 	end
 
 	def create
 
-	puts "hello"
-	puts params
-	puts "fin"
-	puts "cest la data que je veux récup :#{params["username"]} "
-	user = User.new
-	user.username = (params["username"])
-	user.email = (params["email"])
-	user.bio = (params["bio"])
-	user.save
 
+
+	User.create username: params[:username]
+	User.create email: params[:email]
+	User.create bio: params[:bio]
+
+	redirect_to "/new"
 
 	end
 end
