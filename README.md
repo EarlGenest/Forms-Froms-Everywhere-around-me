@@ -1,4 +1,4 @@
-Bidouillage réalisé par Charles Genestoux.
+Projet réalisé par Charles Genestoux (Rennes)
 
 
 Bon tu connais la routine hein : bundle install, tous ça tous ça. 
